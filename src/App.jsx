@@ -23,7 +23,7 @@ function App() {
   const wheelRef = useRef(null)
   const [rouletteProps, setRouletteProps] = useState([
     {name: 'before-res-api', duration: 200, rotationCount: 1, easingType: 'linear', easingFunc: [0.25, 0.25, 0.75, 0.75]},
-    {name: 'end', duration: 8000, rotationCount: 10, easingType: 'custom', easingFunc: [0.090, 0.450, 0.185, 1.009]}
+    {name: 'end', duration: 8000, rotationCount: 12, easingType: 'custom', easingFunc: [0.090, 0.450, 0.185, 1.009]}
   ])
   const [resultIdx, setResultIdx] = useState(-1)
   const playTimeoutRef = useRef(null)
