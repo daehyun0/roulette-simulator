@@ -1,0 +1,14 @@
+#root {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+.container * {
+  min-width: 0;
+  flex: 0 0 50%;
+}
