@@ -45,7 +45,7 @@ function App() {
 
       playTimeoutRef.current = setTimeout(() => {
         resolve(randomIdx)
-      }, 2000)
+      }, 500)
     })
   }
 
